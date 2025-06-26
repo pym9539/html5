@@ -3,7 +3,7 @@ function App() {
   const apple = 1
 
   return ( 
-  <div>
+  <div className="center_div">
     <h1>유튜브모음</h1>
     <br/>리버풀
     <hr />
