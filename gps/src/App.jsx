@@ -16,9 +16,9 @@ function App() {
 
   return (
     <div>
-      <h1> 위도: {lat} </h1>
-      <h1> 경도: {lon} </h1>
-      <h1> 정확도: {acc} </h1>
+      <h3> 위도: {lat} </h3>
+      <h3> 경도: {lon} </h3>
+      <h3> 정확도: {acc} </h3>
     </div>
   )
 }
