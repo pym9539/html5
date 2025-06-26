@@ -1,9 +1,9 @@
 import { useState } from 'react'
 
 function App() {
-  const [ lat, sat_lat ] = useState()
-  const [ lon, sat_lon ] = useState()
-  const [ acc, sat_acc ] = useState()
+  const [ lat, sat_lat ] = useState(0)
+  const [ lon, sat_lon ] = useState(0)
+  const [ acc, sat_acc ] = useState(0)
 
   navigator.geolocation.getCurrentPosition((position) => {
     const lat0 = position.coords.latitude;
